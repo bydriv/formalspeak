@@ -22,8 +22,8 @@ all: kludge.otf
 
 %-baseline.pdf: %.pdf
 	H=$$(identify -format "%H" $<); \
-	if test $$H -lt 115; then \
-		T=$$(expr \( 115 - $$H \) / 2); \
+	if test $$H -lt 116; then \
+		T=$$(expr \( 116 - $$H \) / 2); \
 		B=$$(expr 115 - $$H - $$T); \
 		$(PDFCROP) --margins "0 $$B 0 $$T" $< $@; \
 	else \
