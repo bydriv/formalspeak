@@ -20,7 +20,17 @@ all: kludge.otf
 %-rotated180.pdf: %.pdf
 	$(PDF180) $<
 
-%.svg: %-crop-flipped-rotated180.pdf
+%-baseline.pdf: %.pdf
+	H=$$(identify -format "%H" $<); \
+	if test $$H -lt 115; then \
+		T=$$(expr \( 115 - $$H \) / 2); \
+		B=$$(expr 115 - $$H - $$T); \
+		$(PDFCROP) --margins "0 $$B 0 $$T" $< $@; \
+	else \
+		cp $< $@; \
+	fi
+
+%.svg: %-crop-flipped-rotated180-baseline.pdf
 	$(PDF2SVG) $< $@
 
 kludge.svg: kludge.svg.erb \
