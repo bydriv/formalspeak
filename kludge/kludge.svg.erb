@@ -31,7 +31,6 @@
     version="1.1"
     xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 12.402pt -->
     <font
         id="kludge">
       <font-face
@@ -45,13 +44,14 @@
           glyph-name="SP"
           unicode="&#x0020;"
           horiz-adv-x="100pt"
-          d="M 0 0 Z" /><%
+          d="M 0 0 Z" />
+<%
         ('a'..'z').each do |x|
           s = File.read("capital-#{x}.svg")
           s =~ /width="((?:\d|\.)*)pt"/
           w = $1.to_i
-          horiz_adv_x = w + 12.402
-%>      <!-- = <%= w %>pt + 12.402pt -->
+          horiz_adv_x = w + 12
+%>      <!-- = <%= w %>pt + 12pt -->
       <glyph
           glyph-name="<%= x.upcase %>"
           unicode="<%= x.upcase %>"
