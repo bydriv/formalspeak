@@ -54,7 +54,8 @@
           glyph-name="<%= x.upcase %>"
           unicode="<%= x.upcase %>"
           horiz-adv-x="<%= horiz_adv_x %>"
-          d="<%= s.scan(/<path style="([^"]*)" d="([^"]*)"\/>/).map {|m| m[1]}.join %>" /><%
+          d="<%= s.scan(/<path style="([^"]*)" d="([^"]*)"\/>/).map {|m| m[1]}.join %>" />
+<%
         end
 %>      <hkern g1="A" g2="C" k="14.5298pt" />
       <hkern g1="A" g2="G" k="14.5298pt" />
