@@ -32,14 +32,16 @@
     xmlns="http://www.w3.org/2000/svg">
   <defs>
     <font
-        id="kludge">
+        id="kludge"
+        horiz-origin-x="3pt"
+        horiz-origin-y="0pt">
       <font-face
           font-family="Kludge"
           font-weight="normal"
           font-style="normal"
           units-per-em="100pt"
-          ascent="108pt"
-          descent="-8pt" />
+          ascent="103pt"
+          descent="-3pt" />
       <glyph
           glyph-name="SP"
           unicode="&#x0020;"
@@ -50,8 +52,8 @@
           s = File.read("capital-#{x}.svg")
           s =~ /width="((?:\d|\.)*)pt"/
           w = $1.to_i
-          horiz_adv_x = w + 12
-%>      <!-- = <%= w %>pt + 12pt -->
+          horiz_adv_x = w + 9
+%>      <!-- = <%= w %>pt + 9pt -->
       <glyph
           glyph-name="<%= x.upcase %>"
           unicode="<%= x.upcase %>"

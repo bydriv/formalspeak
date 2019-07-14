@@ -22,9 +22,9 @@ all: kludge.otf
 
 %-baseline.pdf: %.pdf
 	H=$$(identify -format "%H" $<); \
-	T=$$(expr \( 116 - $$H \) / 2); \
-	B=$$(expr 115 - $$H - $$T); \
-	$(PDFCROP) --margins "6 $$B 0 $$T" $< $@; \
+	T=$$(expr \( 106 - $$H \) / 2); \
+	B=$$(expr 106 - $$H - $$T); \
+	$(PDFCROP) --margins "9 $$B 0 $$T" $< $@; \
 
 %.svg: %-crop-flipped-rotated180-baseline.pdf
 	$(PDF2SVG) $< $@
