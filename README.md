@@ -1,5 +1,5 @@
 <div align="center">
-![Formalspeak](fig/formalspeak.png)
+  <img alt="Formalspeak" src="fig/formalspeak.png">
 </div>
 
 Formalspeak is a formal language that is a subset of English.
