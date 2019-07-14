@@ -55,19 +55,19 @@
   <path d="M 57 0.0351562 L 66 0.0351562 L 66 10 L 57 10 Z M 57 0.0351562 "/>
 </clipPath>
 <clipPath id="clip7">
-  <path d="M 67 0.0351562 L 78 0.0351562 L 78 10 L 67 10 Z M 67 0.0351562 "/>
+  <path d="M 66 0.0351562 L 77 0.0351562 L 77 10 L 66 10 Z M 66 0.0351562 "/>
 </clipPath>
 <clipPath id="clip8">
-  <path d="M 78 0.0351562 L 89 0.0351562 L 89 10 L 78 10 Z M 78 0.0351562 "/>
+  <path d="M 77 0.0351562 L 88 0.0351562 L 88 10 L 77 10 Z M 77 0.0351562 "/>
 </clipPath>
 <clipPath id="clip9">
-  <path d="M 89 0.0351562 L 99 0.0351562 L 99 10 L 89 10 Z M 89 0.0351562 "/>
+  <path d="M 88 0.0351562 L 98 0.0351562 L 98 10 L 88 10 Z M 88 0.0351562 "/>
 </clipPath>
 <clipPath id="clip10">
-  <path d="M 99 0.0351562 L 111 0.0351562 L 111 10 L 99 10 Z M 99 0.0351562 "/>
+  <path d="M 98 0.0351562 L 111 0.0351562 L 111 10 L 98 10 Z M 98 0.0351562 "/>
 </clipPath>
 <clipPath id="clip11">
-  <path d="M 112 0.0351562 L 123 0.0351562 L 123 10 L 112 10 Z M 112 0.0351562 "/>
+  <path d="M 111 0.0351562 L 123 0.0351562 L 123 10 L 111 10 Z M 111 0.0351562 "/>
 </clipPath>
 </defs>
 <g id="surface1">
@@ -103,27 +103,27 @@
 </g>
 <g clip-path="url(#clip7)" clip-rule="nonzero">
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-7" x="67.101904" y="10"/>
+  <use xlink:href="#glyph0-7" x="66.699373" y="10"/>
 </g>
 </g>
 <g clip-path="url(#clip8)" clip-rule="nonzero">
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-8" x="78.191631" y="10"/>
+  <use xlink:href="#glyph0-8" x="77.7891" y="10"/>
 </g>
 </g>
 <g clip-path="url(#clip9)" clip-rule="nonzero">
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-9" x="89.381991" y="10"/>
+  <use xlink:href="#glyph0-9" x="88.97946" y="10"/>
 </g>
 </g>
 <g clip-path="url(#clip10)" clip-rule="nonzero">
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-5" x="99.344631" y="10"/>
+  <use xlink:href="#glyph0-5" x="98.9421" y="10"/>
 </g>
 </g>
 <g clip-path="url(#clip11)" clip-rule="nonzero">
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-10" x="112.094798" y="10"/>
+  <use xlink:href="#glyph0-10" x="111.692267" y="10"/>
 </g>
 </g>
 </g>
