@@ -32,6 +32,12 @@ capital-u-crop-flipped-rotated180-baseline.pdf: capital-u-crop-flipped-rotated18
 	B=0; \
 	$(PDFCROP) --margins "9 $$B 0 $$T" $< $@; \
 
+capital-v-crop-flipped-rotated180-baseline.pdf: capital-v-crop-flipped-rotated180.pdf
+	H=$$(identify -format "%H" $<); \
+	T=$$(expr 106 - $$H); \
+	B=0; \
+	$(PDFCROP) --margins "9 $$B 0 $$T" $< $@; \
+
 %.svg: %-crop-flipped-rotated180-baseline.pdf
 	$(PDF2SVG) $< $@
 
