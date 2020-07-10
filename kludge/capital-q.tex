@@ -28,14 +28,10 @@
 \begin{document}%
 \begin{tikzpicture}%
   \fill%
-  (0, 1.8623cm) arc (90:270:1.8623cm)%
-  -- (0, -1.4248cm) arc (270:90:1.4248cm)%
-  -- cycle;%
-  \fill%
   (0, -1.8623cm) arc (-90:-52.1808:1.8623cm)%
   -- (1.5529cm, -1.8623cm) -- (1.8623cm, -1.8623cm)%
   -- (1.8623cm, -1.5529cm) -- (1.4711cm, -1.1419cm)%
-  arc (-37.8192:90:1.8623cm) -- (0, 1.4248cm)%
-  arc (90:-90:1.4248cm) -- cycle;%
+  arc (-37.8192:270:1.8623cm) -- cycle%
+  (0, 1.4248cm) arc (90:-270:1.4248cm) -- cycle;%
 \end{tikzpicture}%
 \end{document}%
