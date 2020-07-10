@@ -39,8 +39,8 @@
           font-family="Kludge"
           font-weight="normal"
           font-style="normal"
-          units-per-em="100pt"
-          ascent="103pt"
+          units-per-em="140pt"
+          ascent="143pt"
           descent="-3pt" />
       <glyph
           glyph-name="SP"
